@@ -1,0 +1,405 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout2"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Contacts" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <QuickContactBadge
+                android:id="@+id/chrisM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/chris_mealy"
+                android:src="@drawable/chris_m" />
+
+            <TextView
+                android:id="@+id/chrisMealy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/chrisM"
+        		android:layout_below="@+id/chrisM"
+                android:text="@string/chris_mealy" />
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <QuickContactBadge
+                android:id="@+id/chrisS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/chris_stewart"
+                android:src="@drawable/chris_s" />
+
+            <TextView
+                android:id="@+id/chrisStewart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/chrisS"
+        		android:layout_below="@+id/chrisS"
+                android:text="@string/chris_stewart" />
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <QuickContactBadge
+                android:id="@+id/dallinC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/dallin_christensen"
+                android:src="@drawable/dallin_c" />
+
+            <TextView
+                android:id="@+id/dallinChristensen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/dallinC"
+        		android:layout_below="@+id/dallinC"
+                android:text="@string/dallin_christensen" />
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <QuickContactBadge
+                android:id="@+id/dallinS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/dallin_shaner"
+                android:src="@drawable/dallin_s" />
+
+            <TextView
+                android:id="@+id/dallinShaner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/dallinS"
+        		android:layout_below="@+id/dallinS"
+                android:text="@string/dallin_shaner" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <QuickContactBadge
+                android:id="@+id/eric"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/eric_lystrup"
+                android:src="@drawable/eric" />
+
+            <TextView
+                android:id="@+id/ericLystrup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/eric"
+        		android:layout_below="@+id/eric"
+                android:text="@string/eric_lystrup" />
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <QuickContactBadge
+                android:id="@+id/grant"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/grant_hodgson"
+                android:src="@drawable/grant" />
+
+            <TextView
+                android:id="@+id/grantHodgson"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/grant"
+        		android:layout_below="@+id/grant"
+                android:text="@string/grant_hodgson" />
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <QuickContactBadge
+                android:id="@+id/jordan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/jordan_lofthouse"
+                android:src="@drawable/jordan" />
+
+            <TextView
+                android:id="@+id/jordanLofthouse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/jordan"
+        		android:layout_below="@+id/jordan"
+                android:text="@string/jordan_lofthouse" />
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <QuickContactBadge
+                android:id="@+id/marc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/marc_nicholes"
+                android:src="@drawable/marc" />
+
+            <TextView
+                android:id="@+id/marcNicholes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/marc"
+        		android:layout_below="@+id/marc"
+                android:text="@string/marc_nicholes" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+        
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <QuickContactBadge
+                android:id="@+id/nate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/nate_anderson"
+                android:src="@drawable/nate" />
+
+            <TextView
+                android:id="@+id/nateAnderson"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/nate"
+        		android:layout_below="@+id/nate"
+                android:text="@string/nate_anderson" />
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <QuickContactBadge
+                android:id="@+id/paul"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/paul_schmidt"
+                android:src="@drawable/paul" />
+
+            <TextView
+                android:id="@+id/paulSchmidt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/paul"
+        		android:layout_below="@+id/paul"
+                android:text="@string/paul_schmidt" />
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <QuickContactBadge
+                android:id="@+id/ryan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/ryan_olson"
+                android:src="@drawable/contact_man" />
+
+            <TextView
+                android:id="@+id/ryanOlson"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/ryan"
+        		android:layout_below="@+id/ryan"
+                android:text="@string/ryan_olson" />
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <QuickContactBadge
+                android:id="@+id/mot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/mot_shimazaki"
+                android:src="@drawable/contact_man" />
+
+            <TextView
+                android:id="@+id/motShimazaki"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/mot"
+        		android:layout_below="@+id/mot"
+                android:text="@string/mot_shimazaki" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+        
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <QuickContactBadge
+                android:id="@+id/bill"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/bill_berge"
+                android:src="@drawable/contact_man" />
+
+            <TextView
+                android:id="@+id/billBerge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/bill"
+        		android:layout_below="@+id/bill"
+                android:text="@string/bill_berge" />
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <QuickContactBadge
+                android:id="@+id/chrisV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/chris_vancampen"
+                android:src="@drawable/chris_v" />
+
+            <TextView
+                android:id="@+id/chrisVanCampen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/chrisV"
+        		android:layout_below="@+id/chrisV"
+                android:text="@string/chris_vancampen" />
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <QuickContactBadge
+                android:id="@+id/stephen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/stephen_escobedo"
+                android:src="@drawable/stephen" />
+
+            <TextView
+                android:id="@+id/stephenEscobedo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/stephen"
+        		android:layout_below="@+id/stephen"
+                android:text="@string/stephen_escobedo" />
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <QuickContactBadge
+                android:id="@+id/reed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/reed_something"
+                android:src="@drawable/contact_man" />
+
+            <TextView
+                android:id="@+id/reedSomething"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/reed"
+        		android:layout_below="@+id/reed"
+                android:text="@string/reed_something" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

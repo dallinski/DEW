@@ -1,0 +1,220 @@
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	xmlns:tools="http://schemas.android.com/tools"
+    	android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	tools:context=".Tango"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <Button
+                android:id="@+id/geology_button"
+                style="android:buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="40dp"
+                android:minWidth="160dp"
+                android:onClick="TangoButtonPressed"
+                android:text="@string/geology" />
+
+            <Button
+                android:id="@+id/geography_button"
+                style="android:buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="40dp"
+                android:minWidth="160dp"
+                android:onClick="TangoButtonPressed"
+                android:text="@string/geography" />
+
+            <Button
+                android:id="@+id/vehicle_button"
+                style="android:buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="40dp"
+                android:minWidth="160dp"
+                android:onClick="TangoButtonPressed"
+                android:text="@string/vehicle" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <Button
+                android:id="@+id/birds_button"
+                style="android:buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="40dp"
+                android:minWidth="160dp"
+                android:onClick="TangoButtonPressed"
+                android:text="@string/birds" />
+
+            <Button
+                android:id="@+id/fish_button"
+                style="android:buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="40dp"
+                android:minWidth="160dp"
+                android:onClick="TangoButtonPressed"
+                android:text="@string/fish" />
+
+            <Button
+                android:id="@+id/agriculture_button"
+                style="android:buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="40dp"
+                android:minWidth="160dp"
+                android:onClick="TangoButtonPressed"
+                android:text="@string/agriculture" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <Button
+                android:id="@+id/trees_button"
+                style="android:buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="40dp"
+                android:minWidth="160dp"
+                android:onClick="TangoButtonPressed"
+                android:text="@string/plants_trees" />
+
+            <Button
+                android:id="@+id/cactus_button"
+                style="android:buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="40dp"
+                android:minWidth="160dp"
+                android:onClick="TangoButtonPressed"
+                android:text="@string/cactus" />
+
+            <Button
+                android:id="@+id/government_button"
+                style="android:buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="40dp"
+                android:minWidth="160dp"
+                android:onClick="TangoButtonPressed"
+                android:text="@string/government" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <Button
+                android:id="@+id/flowers_button"
+                style="android:buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="40dp"
+                android:minWidth="160dp"
+                android:onClick="TangoButtonPressed"
+                android:text="@string/flowers" />
+
+            <Button
+                android:id="@+id/wildlife_button"
+                style="android:buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="40dp"
+                android:minWidth="160dp"
+                android:onClick="TangoButtonPressed"
+                android:text="@string/wildlife" />
+
+            <Button
+                android:id="@+id/parks_button"
+                style="android:buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="40dp"
+                android:minWidth="160dp"
+                android:onClick="TangoButtonPressed"
+                android:text="@string/parks" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <Button
+                android:id="@+id/business_button"
+                style="android:buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="40dp"
+                android:minWidth="160dp"
+                android:onClick="TangoButtonPressed"
+                android:text="@string/business" />
+
+            <Button
+                android:id="@+id/history_button"
+                style="android:buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="40dp"
+                android:minWidth="160dp"
+                android:onClick="TangoButtonPressed"
+                android:text="@string/history" />
+
+            <Button
+                android:id="@+id/miscellaneous_button"
+                style="android:buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="40dp"
+                android:minWidth="160dp"
+                android:onClick="TangoButtonPressed"
+                android:text="@string/miscellaneous" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <Button
+                android:id="@+id/anthropology_button"
+                style="android:buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="40dp"
+                android:minWidth="160dp"
+                android:onClick="TangoButtonPressed"
+                android:text="@string/anthropology" />
+
+            <Button
+                android:id="@+id/industry_button"
+                style="android:buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="40dp"
+                android:minWidth="160dp"
+                android:onClick="TangoButtonPressed"
+                android:text="@string/industry_energy_vocation" />
+
+        </LinearLayout>
+        
+    </LinearLayout>

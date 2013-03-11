@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DEW Guides</string>
+    <string name="menu_settings">About</string>
+    <string name="driver_log">Driver Log</string>
+    <string name="tango">単語</string>
+    <string name="information">Information</string>
+    <string name="info">Info</string>
+    <string name="contacts">Contacts</string>
+    <string name="dew_logo">DEW_Logo</string>
+    <string name="title_activity_info_menus">Info Menus</string>
+    <string name="ok">OK</string>
+    <string name="about">Creator: Dallin Christensen\nCreation date: June 2012\nRevision date: December 2012\nMade for use by Destination East West\nAll rights reserved</string>
+
+    <!-- Tango page****************************************** -->
+    <string name="wildlife">Wildlife</string>
+    <string name="birds">Birds</string>
+    <string name="geography">Geography</string>
+    <string name="business">Business</string>
+    <string name="plants_trees">Plants/Trees</string>
+    <string name="flowers">Flowers</string>
+    <string name="cactus">Cactus</string>
+    <string name="geology">Geology</string>
+    <string name="government">Government</string>
+    <string name="history">History</string>
+    <string name="agriculture">Agriculture</string>
+    <string name="vehicle">Vehicle</string>
+    <string name="anthropology">Anthropology</string>
+    <string name="miscellaneous">Miscellaneous</string>
+    <string name="industry_energy_vocation">Industry/Energy/Vocation</string>
+    <string name="fish">Fish</string>
+    <string name="parks">Parks</string>
+    <!-- Tango page****************************************** -->
+
+
+    <!-- Information page****************************************** -->
+    <string name="grand_circle">Grand Circle</string>
+    <string name="bryce_canyon">Bryce Canyon</string>
+    <string name="sedona">Sedona</string>
+    <!-- Information page****************************************** -->
+
+    <string name="show_log">Show Log</string>
+
+    <!-- Contacts page****************************************** -->
+    <string name="stephen_escobedo">Stephen</string>
+    <string name="chris_mealy">Chris M</string>
+    <string name="chris_stewart">Chris S</string>
+    <string name="dallin_christensen">Dallin C</string>
+    <string name="dallin_shaner">Dallin S</string>
+    <string name="eric_lystrup">Eric</string>
+    <string name="grant_hodgson">Grant</string>
+    <string name="jordan_lofthouse">Jordan</string>
+    <string name="marc_nicholes">Marc</string>
+    <string name="nate_anderson">Nate</string>
+    <string name="paul_schmidt">Paul</string>
+    <string name="ryan_olson">Ryan</string>
+    <string name="mot_shimazaki">Mot</string>
+    <string name="bill_berge">Bill</string>
+    <string name="chris_vancampen">Chris V</string>
+    <string name="reed_something">Reed</string>
+    <!-- Contacts page****************************************** -->
+
+
+    <!-- Grand Circle page****************************************** -->
+    <string name="nevada">Nevada</string>
+    <string name="las_vegas">Las Vegas</string>
+    <string name="the_strip">The Strip</string>
+    <string name="hotels">Hotels</string>
+    <string name="movies">Movies</string>
+    <string name="nellis_air_force_base">Nellis Air Force Base</string>
+    <string name="las_vegas_motor_speedway">Las Vegas Motor Speedway</string>
+    <string name="great_basin_highway">Great Basin Highway</string>
+    <string name="mojave_desert">Mojave Desert</string>
+    <string name="mesquite">Mesquite</string>
+    <string name="virgin_river_gorge">Virgin River Gorge</string>
+    <string name="st_george">St. George</string>
+    <string name="hurricane">Hurricane</string>
+    <string name="the_colorado_plateau">The Colorado Plateau</string>
+    <string name="colorado_city">Colorado City</string>
+    <string name="arizona_strip">Arizona Strip</string>
+    <string name="fredonia">Fredonia</string>
+    <string name="kanab">Kanab</string>
+    <string name="grand_staircase_escalante_n_m_">Grand Staircase Escalante N.M.</string>
+    <string name="lake_powell">Lake Powell</string>
+    <string name="glen_canyon_dam">Glen Canyon Dam</string>
+    <string name="power_plant">Power Plant</string>
+    <string name="glen_canyon_bridge">Glen Canyon Bridge</string>
+    <string name="page">Page</string>
+    <string name="navajo_generating_station">Navajo Generating Station</string>
+    <string name="antelope_canyon">Antelope Canyon</string>
+    <string name="horseshoe_bend">Horseshoe Bend</string>
+    <string name="the_colorado_river">The Colorado River</string>
+    <string name="kayenta">Kayenta</string>
+    <string name="monument_valley">Monument Valley</string>
+    <string name="gouldings">Gouldings</string>
+    <string name="monument_valley_tribal_park">Monument Valley Tribal Park</string>
+    <string name="tuba_city">Tuba City</string>
+    <string name="painted_desert">Painted Desert</string>
+    <string name="cameron">Cameron</string>
+    <string name="grand_canyon">Grand Canyon</string>
+    <string name="view_points">View Points</string>
+    <string name="tusayan">Tusayan</string>
+    <string name="valle">Valle</string>
+    <string name="williams">Williams</string>
+    <string name="seligman">Seligman</string>
+    <string name="route_66">Route 66</string>
+    <string name="kingman">Kingman</string>
+    <string name="chloride">Chloride</string>
+    <string name="hoover_dam">Hoover Dam</string>
+    <string name="lake_mead">Lake Mead</string>
+    <string name="mike_o_callaghan_pat_tillman_bridge">Mike O\'Callaghan-Pat Tillman Bridge</string>
+    <string name="boulder_city">Boulder City</string>
+    <string name="railroad_pass">Railroad Pass</string>
+    <string name="navajo_nation">Navajo Nation</string>
+    <string name="black_mesa">Black Mesa</string>
+    <!-- Grand Circle page****************************************** -->
+
+
+    <!-- Sedona page****************************************** -->
+    <string name="flagstaff">Flagstaff</string>
+    <string name="oak_creek_canyon">Oak Creek Canyon</string>
+    <string name="slide_rock_state_park">Slide Rock State Park</string>
+    <string name="grasshopper_point">Grasshopper Point</string>
+    <string name="uptown">Uptown</string>
+    <string name="tlaquepaque">Tlaquepaque</string>
+    <string name="chapel_of_the_holy_cross">Chapel of the Holy Cross</string>
+    <string name="crescent_moon_ranch_state_park">Crescent Moon Ranch State Park</string>
+    <string name="bell_rock">Bell Rock</string>
+    <string name="coffee_pot_rock">Coffee Pot Rock</string>
+    <!-- Sedona page****************************************** -->
+
+
+    <!-- Bryce Canyon page****************************************** -->
+    <string name="kanab_canyon">Kanab Canyon</string>
+    <string name="best_friends_animal_shelter">Best Friends Animal Shelter</string>
+    <string name="mt_carmel">Mt. Carmel</string>
+    <string name="maynard_dixon">Maynard Dixon</string>
+    <string name="orderville">Orderville</string>
+    <string name="glendale">Glendale</string>
+    <string name="red_canyon">Red Canyon</string>
+    <string name="ruby_s_inn">Ruby\'s Inn</string>
+    <string name="bryce_canyon_national_park">Bryce Canyon National Park</string>
+    <string name="sunrise_point">Sunrise Point</string>
+    <string name="sunset_point">Sunset Point</string>
+    <string name="inspiration_point">Inspiration Point</string>
+    <string name="bryce_point">Bryce Point</string>
+    <!-- Bryce Canyon page****************************************** -->
+    
+    <!-- Driver Log page****************************************** -->
+    <string name="insert_missed_entry">Insert missed entry</string>
+    <string name="delete_last_entry">Delete last entry</string>
+    <string name="delete_all_entries">Delete all entries</string>
+    <string name="off_duty">Off Duty</string>
+    <string name="driving">Driving</string>
+    <string name="not_driving">Not Driving</string>
+    <string name="all_times_listed_in_home_terminal_las_vegas_time">All times listed in home terminal (Las Vegas) time</string>
+    <string name="blank_drivers_log">Blank drivers log</string>
+    <!-- Driver Log page****************************************** -->
+    <string name="use_location_">Use location?</string>
+    
+</resources>

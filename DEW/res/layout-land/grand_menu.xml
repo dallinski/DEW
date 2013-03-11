@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent">
+    
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" >
+	
+	    <Button
+	        android:id="@+id/nevada"
+	        android:onClick="GrandButtonPressed"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentTop="true"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginTop="10dp"
+	        android:text="@string/nevada" />
+
+	    <Button
+	        android:id="@+id/las_vegas"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBaseline="@+id/nevada"
+	        android:layout_alignBottom="@+id/nevada"
+	        android:layout_toRightOf="@+id/nevada"
+	        android:onClick="GrandButtonPressed"
+	        android:text="@string/las_vegas" />
+
+	    <Button
+	        android:id="@+id/the_strip"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBaseline="@+id/las_vegas"
+	        android:layout_alignBottom="@+id/las_vegas"
+	        android:layout_toRightOf="@+id/las_vegas"
+	        android:onClick="GrandButtonPressed"
+	        android:text="@string/the_strip" />
+
+	    <Button
+	        android:id="@+id/hotels"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBaseline="@+id/the_strip"
+	        android:layout_alignBottom="@+id/the_strip"
+	        android:layout_toRightOf="@+id/the_strip"
+	        android:onClick="GrandButtonPressed"
+	        android:text="@string/hotels" />
+
+	    <Button
+	        android:id="@+id/movies"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBaseline="@+id/hotels"
+	        android:layout_alignBottom="@+id/hotels"
+	        android:layout_toRightOf="@+id/hotels"
+	        android:onClick="GrandButtonPressed"
+	        android:text="@string/movies" />
+
+	    <Button
+	        android:id="@+id/nellis"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/nevada"
+	        android:layout_below="@+id/nevada"
+	        android:onClick="GrandButtonPressed"
+	        android:text="@string/nellis_air_force_base" />
+
+	    <Button
+	        android:id="@+id/speedway"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBaseline="@+id/nellis"
+	        android:layout_alignBottom="@+id/nellis"
+	        android:layout_toRightOf="@+id/nellis"
+	        android:onClick="GrandButtonPressed"
+	        android:text="@string/las_vegas_motor_speedway" />
+
+	    <Button
+	        android:id="@+id/great_basin"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignRight="@+id/nellis"
+	        android:layout_below="@+id/nellis"
+	        android:onClick="GrandButtonPressed"
+	        android:text="@string/great_basin_highway" />
+
+	    <Button
+	        android:id="@+id/mojave"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBaseline="@+id/great_basin"
+	        android:layout_alignBottom="@+id/great_basin"
+	        android:layout_toRightOf="@+id/great_basin"
+	        android:onClick="GrandButtonPressed"
+	        android:text="@string/mojave_desert" />
+
+	    <Button
+	        android:id="@+id/mesquite"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBaseline="@+id/mojave"
+	        android:layout_alignBottom="@+id/mojave"
+	        android:layout_toRightOf="@+id/mojave"
+	        android:onClick="GrandButtonPressed"
+	        android:text="@string/mesquite" />
+
+	    <Button
+	        android:id="@+id/virgin_river"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/great_basin"
+	        android:layout_below="@+id/great_basin"
+	        android:onClick="GrandButtonPressed"
+	        android:text="@string/virgin_river_gorge" />
+
+	    <Button
+	        android:id="@+id/st_george"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBaseline="@+id/virgin_river"
+	        android:layout_alignBottom="@+id/virgin_river"
+	        android:layout_toRightOf="@+id/virgin_river"
+	        android:onClick="GrandButtonPressed"
+	        android:text="@string/st_george" />
+
+	    <Button
+	        android:id="@+id/hurricane"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBaseline="@+id/st_george"
+	        android:layout_alignBottom="@+id/st_george"
+	        android:layout_toRightOf="@+id/st_george"
+	        android:onClick="GrandButtonPressed"
+	        android:text="@string/hurricane" />
+
+	    <Button
+	        android:id="@+id/colorado_plateau"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/virgin_river"
+	        android:layout_below="@+id/virgin_river"
+	        android:onClick="GrandButtonPressed"
+	        android:text="@string/the_colorado_plateau" />
+
+	    <Button
+	        android:id="@+id/colorado_city"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBaseline="@+id/colorado_plateau"
+	        android:layout_alignBottom="@+id/colorado_plateau"
+	        android:layout_toRightOf="@+id/colorado_plateau"
+	        android:onClick="GrandButtonPressed"
+	        android:text="@string/colorado_city" />
+
+	    <Button
+	        android:id="@+id/arizona_strip"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBaseline="@+id/colorado_city"
+	        android:layout_alignBottom="@+id/colorado_city"
+	        android:layout_toRightOf="@+id/colorado_city"
+	        android:onClick="GrandButtonPressed"
+	        android:text="@string/arizona_strip" />
+
+	    <Button
+	        android:id="@+id/fredonia"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/colorado_plateau"
+	        android:layout_below="@+id/colorado_plateau"
+	        android:onClick="GrandButtonPressed"
+	        android:text="@string/fredonia" />
+
+	    <Button
+	        android:id="@+id/kanab"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBaseline="@+id/fredonia"
+	        android:layout_alignBottom="@+id/fredonia"
+	        android:layout_toRightOf="@+id/fredonia"
+	        android:onClick="GrandButtonPressed"
+	        android:text="@string/kanab" />
+
+	    <Button
+	        android:id="@+id/grand_staircase"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBaseline="@+id/kanab"
+	        android:layout_alignBottom="@+id/kanab"
+	        android:layout_toRightOf="@+id/kanab"
+	        android:onClick="GrandButtonPressed"
+	        android:text="@string/grand_staircase_escalante_n_m_" />
+
+	    <Button
+	        android:id="@+id/lake_powell"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/fredonia"
+	        android:layout_below="@+id/fredonia"
+	        android:onClick="GrandButtonPressed"
+	        android:text="@string/lake_powell" />
+
+	    <Button
+	        android:id="@+id/glen_canyon_dam"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBaseline="@+id/lake_powell"
+	        android:layout_alignBottom="@+id/lake_powell"
+	        android:layout_toRightOf="@+id/lake_powell"
+	        android:onClick="GrandButtonPressed"
+	        android:text="@string/glen_canyon_dam" />
+
+	    <Button
+	        android:id="@+id/power_plant"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBaseline="@+id/glen_canyon_dam"
+	        android:layout_alignBottom="@+id/glen_canyon_dam"
+	        android:layout_toRightOf="@+id/glen_canyon_dam"
+	        android:onClick="GrandButtonPressed"
+	        android:text="@string/power_plant" />
+
+	    <Button
+	        android:id="@+id/glen_canyon_bridge"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/lake_powell"
+	        android:layout_below="@+id/lake_powell"
+	        android:onClick="GrandButtonPressed"
+	        android:text="@string/glen_canyon_bridge" />
+
+	    <Button
+	        android:id="@+id/page"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBaseline="@+id/glen_canyon_bridge"
+	        android:layout_alignBottom="@+id/glen_canyon_bridge"
+	        android:layout_toRightOf="@+id/glen_canyon_bridge"
+	        android:onClick="GrandButtonPressed"
+	        android:text="@string/page" />
+
+	    <Button
+	        android:id="@+id/navajo_generating_station"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/glen_canyon_dam"
+	        android:layout_toRightOf="@+id/page"
+	        android:onClick="GrandButtonPressed"
+	        android:text="@string/navajo_generating_station" />
+
+	    <Button
+	        android:id="@+id/antelope_canyon"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/glen_canyon_bridge"
+	        android:layout_below="@+id/glen_canyon_bridge"
+	        android:onClick="GrandButtonPressed"
+	        android:text="@string/antelope_canyon" />
+
+	    <Button
+	        android:id="@+id/horseshoe_bend"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBaseline="@+id/antelope_canyon"
+	        android:layout_alignBottom="@+id/antelope_canyon"
+	        android:layout_toRightOf="@+id/antelope_canyon"
+	        android:onClick="GrandButtonPressed"
+	        android:text="@string/horseshoe_bend" />
+
+	    <Button
+	        android:id="@+id/colorado_river"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBaseline="@+id/horseshoe_bend"
+	        android:layout_alignBottom="@+id/horseshoe_bend"
+	        android:layout_toRightOf="@+id/horseshoe_bend"
+	        android:onClick="GrandButtonPressed"
+	        android:text="@string/the_colorado_river" />
+
+	    <Button
+	        android:id="@+id/navajo_nation"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/antelope_canyon"
+	        android:layout_below="@+id/antelope_canyon"
+	        android:onClick="GrandButtonPressed"
+	        android:text="@string/navajo_nation" />
+
+	    <Button
+	        android:id="@+id/black_mesa"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBaseline="@+id/navajo_nation"
+	        android:layout_alignBottom="@+id/navajo_nation"
+	        android:layout_toRightOf="@+id/navajo_nation"
+	        android:onClick="GrandButtonPressed"
+	        android:text="@string/black_mesa" />
+
+	    <Button
+	        android:id="@+id/kayenta"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBaseline="@+id/black_mesa"
+	        android:layout_alignBottom="@+id/black_mesa"
+	        android:layout_toRightOf="@+id/black_mesa"
+	        android:onClick="GrandButtonPressed"
+	        android:text="@string/kayenta" />
+
+	    <Button
+	        android:id="@+id/monument_valley"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBaseline="@+id/kayenta"
+	        android:layout_alignBottom="@+id/kayenta"
+	        android:layout_toRightOf="@+id/kayenta"
+	        android:onClick="GrandButtonPressed"
+	        android:text="@string/monument_valley" />
+
+	    <Button
+	        android:id="@+id/gouldings"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/navajo_nation"
+	        android:layout_below="@+id/navajo_nation"
+	        android:onClick="GrandButtonPressed"
+	        android:text="@string/gouldings" />
+
+	    <Button
+	        android:id="@+id/tribal_park"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBaseline="@+id/gouldings"
+	        android:layout_alignBottom="@+id/gouldings"
+	        android:layout_toRightOf="@+id/gouldings"
+	        android:onClick="GrandButtonPressed"
+	        android:text="@string/monument_valley_tribal_park" />
+
+	    <Button
+	        android:id="@+id/tuba_city"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBaseline="@+id/tribal_park"
+	        android:layout_alignBottom="@+id/tribal_park"
+	        android:layout_toRightOf="@+id/tribal_park"
+	        android:onClick="GrandButtonPressed"
+	        android:text="@string/tuba_city" />
+
+	    <Button
+	        android:id="@+id/painted_desert"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/gouldings"
+	        android:layout_below="@+id/gouldings"
+	        android:onClick="GrandButtonPressed"
+	        android:text="@string/painted_desert" />
+
+	    <Button
+	        android:id="@+id/cameron"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBaseline="@+id/painted_desert"
+	        android:layout_alignBottom="@+id/painted_desert"
+	        android:layout_toRightOf="@+id/painted_desert"
+	        android:onClick="GrandButtonPressed"
+	        android:text="@string/cameron" />
+
+	    <Button
+	        android:id="@+id/grand_canyon"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBaseline="@+id/cameron"
+	        android:layout_alignBottom="@+id/cameron"
+	        android:layout_toRightOf="@+id/cameron"
+	        android:onClick="GrandButtonPressed"
+	        android:text="@string/grand_canyon" />
+
+	    <Button
+	        android:id="@+id/view_points"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBaseline="@+id/grand_canyon"
+	        android:layout_alignBottom="@+id/grand_canyon"
+	        android:layout_toRightOf="@+id/grand_canyon"
+	        android:onClick="GrandButtonPressed"
+	        android:text="@string/view_points" />
+
+	    <Button
+	        android:id="@+id/tusayan"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/painted_desert"
+	        android:layout_below="@+id/painted_desert"
+	        android:onClick="GrandButtonPressed"
+	        android:text="@string/tusayan" />
+
+	    <Button
+	        android:id="@+id/valle"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBaseline="@+id/tusayan"
+	        android:layout_alignBottom="@+id/tusayan"
+	        android:layout_toRightOf="@+id/tusayan"
+	        android:onClick="GrandButtonPressed"
+	        android:text="@string/valle" />
+
+	    <Button
+	        android:id="@+id/williams"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBaseline="@+id/valle"
+	        android:layout_alignBottom="@+id/valle"
+	        android:layout_toRightOf="@+id/valle"
+	        android:onClick="GrandButtonPressed"
+	        android:text="@string/williams" />
+
+	    <Button
+	        android:id="@+id/seligman"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBaseline="@+id/williams"
+	        android:layout_alignBottom="@+id/williams"
+	        android:layout_toRightOf="@+id/williams"
+	        android:onClick="GrandButtonPressed"
+	        android:text="@string/seligman" />
+
+	    <Button
+	        android:id="@+id/route_66"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBaseline="@+id/seligman"
+	        android:layout_alignBottom="@+id/seligman"
+	        android:layout_toRightOf="@+id/seligman"
+	        android:onClick="GrandButtonPressed"
+	        android:text="@string/route_66" />
+
+	    <Button
+	        android:id="@+id/kingman"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/tusayan"
+	        android:layout_below="@+id/tusayan"
+	        android:onClick="GrandButtonPressed"
+	        android:text="@string/kingman" />
+
+	    <Button
+	        android:id="@+id/chloride"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBaseline="@+id/kingman"
+	        android:layout_alignBottom="@+id/kingman"
+	        android:layout_toRightOf="@+id/kingman"
+	        android:onClick="GrandButtonPressed"
+	        android:text="@string/chloride" />
+
+	    <Button
+	        android:id="@+id/hoover_dam"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBaseline="@+id/chloride"
+	        android:layout_alignBottom="@+id/chloride"
+	        android:layout_toRightOf="@+id/chloride"
+	        android:onClick="GrandButtonPressed"
+	        android:text="@string/hoover_dam" />
+
+	    <Button
+	        android:id="@+id/lake_mead"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBaseline="@+id/hoover_dam"
+	        android:layout_alignBottom="@+id/hoover_dam"
+	        android:layout_toRightOf="@+id/hoover_dam"
+	        android:onClick="GrandButtonPressed"
+	        android:text="@string/lake_mead" />
+
+	    <Button
+	        android:id="@+id/tillman_bridge"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/kingman"
+	        android:layout_below="@+id/kingman"
+	        android:onClick="GrandButtonPressed"
+	        android:text="@string/mike_o_callaghan_pat_tillman_bridge" />
+
+	    <Button
+	        android:id="@+id/boulder_city"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBaseline="@+id/tillman_bridge"
+	        android:layout_alignBottom="@+id/tillman_bridge"
+	        android:layout_toRightOf="@+id/tillman_bridge"
+	        android:onClick="GrandButtonPressed"
+	        android:text="@string/boulder_city" />
+
+	    <Button
+	        android:id="@+id/railroad_pass"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/tillman_bridge"
+	        android:layout_below="@+id/tillman_bridge"
+	        android:onClick="GrandButtonPressed"
+	        android:text="@string/railroad_pass" />
+	
+	</RelativeLayout>
+	
+</ScrollView>

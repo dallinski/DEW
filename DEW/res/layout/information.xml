@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".Information" >
+
+    <Button
+        android:id="@+id/grand_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="150dp"
+        android:onClick="InfoButtonPressed"
+        android:text="@string/grand_circle" />
+
+    <Button
+        android:id="@+id/bryce_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="150dp"
+        android:onClick="InfoButtonPressed"
+        android:text="@string/bryce_canyon" />
+
+    <Button
+        android:id="@+id/sedona_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="150dp"
+        android:onClick="InfoButtonPressed"
+        android:text="@string/sedona" />
+
+</LinearLayout>

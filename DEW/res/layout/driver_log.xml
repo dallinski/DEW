@@ -1,0 +1,132 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DriverLog" >
+    
+    <LinearLayout
+        android:id="@+id/driving_buttons_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:divider="?android:attr/dividerHorizontal"
+        android:showDividers="middle" >
+        
+        <Button
+            android:id="@+id/off_duty"
+            style="android:buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/off_duty"
+            android:minHeight="48dp"
+            android:minWidth="48dp"
+            android:onClick="addOffDuty" />
+        
+        <Button
+            android:id="@+id/driving"
+            style="android:buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/driving"
+            android:minHeight="48dp"
+            android:minWidth="48dp"
+            android:onClick="addDriving" />
+        
+        <Button
+            android:id="@+id/not_driving"
+            style="android:buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/not_driving"
+            android:minHeight="48dp"
+            android:minWidth="48dp"
+            android:onClick="addNotDriving" />
+        
+        <Button
+            android:id="@+id/show_driver_log"
+            style="android:buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/chart_small"
+            android:minHeight="64dp"
+            android:minWidth="64dp"
+            android:onClick="DriverButtonPressed" />
+        
+    </LinearLayout>
+    
+    <CheckBox
+        android:id="@+id/locationCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/driving_buttons_layout"
+        android:text="@string/use_location_" />
+    
+    <TextView
+        android:id="@+id/timeWarning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/locationCheckBox"
+        android:layout_centerHorizontal="true"
+        android:text="@string/all_times_listed_in_home_terminal_las_vegas_time" />
+
+    <TextView
+        android:id="@+id/timeStamps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/timeWarning"
+        android:textIsSelectable="false"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:divider="?android:attr/dividerHorizontal"
+        android:showDividers="middle" >
+
+        <Button
+            android:id="@+id/insert_missed"
+            style="android:buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/time_add"
+            android:onClick="showTimePickerDialog" />
+
+        <Button
+            android:id="@+id/delete_selection"
+            style="android:buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/time_delete"
+            android:onClick="deleteSelection" />
+
+        <Button
+            android:id="@+id/delete_all"
+            style="android:buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/time_delete_all"
+            android:onClick="deleteAll" />
+
+    </LinearLayout>
+
+</RelativeLayout>

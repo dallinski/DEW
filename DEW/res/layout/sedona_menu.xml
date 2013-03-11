@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent">
+    
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" >
+	
+	    <Button
+	        android:id="@+id/williams"
+	        android:onClick="SedonaButtonPressed"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentTop="true"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginTop="10dp"
+	        android:text="@string/williams" />
+
+	    <Button
+	        android:id="@+id/flagstaff"
+	        android:onClick="SedonaButtonPressed"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/williams"
+	        android:layout_below="@+id/williams"
+	        android:text="@string/flagstaff" />
+	    
+	    <Button
+	        android:id="@+id/oak_creek_canyon"
+	        android:onClick="SedonaButtonPressed"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/flagstaff"
+	        android:layout_below="@+id/flagstaff"
+	        android:text="@string/oak_creek_canyon" />
+	    
+	    <Button
+	        android:id="@+id/slide_rock"
+	        android:onClick="SedonaButtonPressed"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/oak_creek_canyon"
+	        android:layout_below="@+id/oak_creek_canyon"
+	        android:text="@string/slide_rock_state_park" />
+	    
+	    <Button
+	        android:id="@+id/grasshopper_point"
+	        android:onClick="SedonaButtonPressed"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/slide_rock"
+	        android:layout_below="@+id/slide_rock"
+	        android:text="@string/grasshopper_point" />
+	    
+	    <Button
+	        android:id="@+id/sedona_info"
+	        android:onClick="SedonaButtonPressed"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/grasshopper_point"
+	        android:layout_below="@+id/grasshopper_point"
+	        android:text="@string/sedona" />
+	    
+	    <Button
+	        android:id="@+id/uptown"
+	        android:onClick="SedonaButtonPressed"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/sedona_info"
+	        android:layout_below="@+id/sedona_info"
+	        android:text="@string/uptown" />
+	    
+	    <Button
+	        android:id="@+id/tlaquepaque"
+	        android:onClick="SedonaButtonPressed"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/uptown"
+	        android:layout_below="@+id/uptown"
+	        android:text="@string/tlaquepaque" />
+	    
+	    <Button
+	        android:id="@+id/chapel"
+	        android:onClick="SedonaButtonPressed"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/tlaquepaque"
+	        android:layout_below="@+id/tlaquepaque"
+	        android:text="@string/chapel_of_the_holy_cross" />
+	    
+	    <Button
+	        android:id="@+id/crescent_moon"
+	        android:onClick="SedonaButtonPressed"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/chapel"
+	        android:layout_below="@+id/chapel"
+	        android:text="@string/crescent_moon_ranch_state_park" />
+	    
+	    <Button
+	        android:id="@+id/bell_rock"
+	        android:onClick="SedonaButtonPressed"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/crescent_moon"
+	        android:layout_below="@+id/crescent_moon"
+	        android:text="@string/bell_rock" />
+	    
+	    <Button
+	        android:id="@+id/coffee_pot"
+	        android:onClick="SedonaButtonPressed"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/bell_rock"
+	        android:layout_below="@+id/bell_rock"
+	        android:text="@string/coffee_pot_rock" />
+	
+	</RelativeLayout>
+	
+</ScrollView>

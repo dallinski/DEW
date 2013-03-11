@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent">
+    
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" >
+	
+	    <Button
+	        android:id="@+id/bc_kanab"
+	        android:onClick="BryceButtonPressed"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentTop="true"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginTop="10dp"
+	        android:text="@string/kanab" />
+	    
+	    <Button
+	        android:id="@+id/kanab_canyon"
+	        android:onClick="BryceButtonPressed"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/bc_kanab"
+	        android:layout_below="@+id/bc_kanab"
+	        android:text="@string/kanab_canyon" />
+	    
+	    <Button
+	        android:id="@+id/best_friends"
+	        android:onClick="BryceButtonPressed"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/kanab_canyon"
+	        android:layout_below="@+id/kanab_canyon"
+	        android:text="@string/best_friends_animal_shelter" />
+	    
+	    <Button
+	        android:id="@+id/mt_carmel"
+	        android:onClick="BryceButtonPressed"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/best_friends"
+	        android:layout_below="@+id/best_friends"
+	        android:text="@string/mt_carmel" />
+	    
+	    <Button
+	        android:id="@+id/maynard_dixon"
+	        android:onClick="BryceButtonPressed"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/mt_carmel"
+	        android:layout_below="@+id/mt_carmel"
+	        android:text="@string/maynard_dixon" />
+	    
+	    <Button
+	        android:id="@+id/orderville"
+	        android:onClick="BryceButtonPressed"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/maynard_dixon"
+	        android:layout_below="@+id/maynard_dixon"
+	        android:text="@string/orderville" />
+	    
+	    <Button
+	        android:id="@+id/glendale"
+	        android:onClick="BryceButtonPressed"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/orderville"
+	        android:layout_below="@+id/orderville"
+	        android:text="@string/glendale" />
+	    
+	    <Button
+	        android:id="@+id/red_canyon"
+	        android:onClick="BryceButtonPressed"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/glendale"
+	        android:layout_below="@+id/glendale"
+	        android:text="@string/red_canyon" />
+	    
+	    <Button
+	        android:id="@+id/rubys"
+	        android:onClick="BryceButtonPressed"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/red_canyon"
+	        android:layout_below="@+id/red_canyon"
+	        android:text="@string/ruby_s_inn" />
+	    
+	    <Button
+	        android:id="@+id/bryce_canyon_n_p"
+	        android:onClick="BryceButtonPressed"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/rubys"
+	        android:layout_below="@+id/rubys"
+	        android:text="@string/bryce_canyon_national_park" />
+	    
+	    <Button
+	        android:id="@+id/bc_geology"
+	        android:onClick="BryceButtonPressed"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/bryce_canyon_n_p"
+	        android:layout_below="@+id/bryce_canyon_n_p"
+	        android:text="@string/geology" />
+	    <Button
+	        android:id="@+id/bc_sunrise"
+	        android:onClick="BryceButtonPressed"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/bc_geology"
+	        android:layout_below="@+id/bc_geology"
+	        android:text="@string/sunrise_point" />
+	    
+	    <Button
+	        android:id="@+id/bc_sunset"
+	        android:onClick="BryceButtonPressed"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/bc_sunrise"
+	        android:layout_below="@+id/bc_sunrise"
+	        android:text="@string/sunset_point" />
+	    
+	    <Button
+	        android:id="@+id/inspiration_point"
+	        android:onClick="BryceButtonPressed"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/bc_sunset"
+	        android:layout_below="@+id/bc_sunset"
+	        android:text="@string/inspiration_point" />
+	    
+	    <Button
+	        android:id="@+id/bryce_point"
+	        android:onClick="BryceButtonPressed"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/inspiration_point"
+	        android:layout_below="@+id/inspiration_point"
+	        android:text="@string/bryce_point" />
+	
+	</RelativeLayout>
+	
+</ScrollView>
